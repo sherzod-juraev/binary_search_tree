@@ -59,7 +59,7 @@ Duplicate values are not allowed (insertion will raise an error).
 
 This is a basic BST, not self-balancing (e.g., AVL/Red-Black Tree).
 
-Example Usage
+# Example Usage
 
 main.py
 ```python
