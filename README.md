@@ -30,13 +30,13 @@ main.py → demonstrates usage of the BinarySearchTree
 
 - Traversal methods:
 
-  - In-order (Left → Root → Right)
+- In-order (Left → Root → Right)
 
-  - Pre-order (Root → Left → Right)
+- Pre-order (Root → Left → Right)
 
-  - Post-order (Left → Right → Root)
+- Post-order (Left → Right → Root)
 
-  - Level-order (Breadth-First Search)
+- Level-order (Breadth-First Search)
  
  ---
  
@@ -59,7 +59,8 @@ Python 3.9+ recommended
 
 No external libraries needed
 
---
+---
+
 ## Notes
 
 Duplicate values are not allowed (insertion will raise an error).
