@@ -1,4 +1,4 @@
-Binary Search Tree (BST) in Python
+##Binary Search Tree (BST) in Python
 
 This project is a simple implementation of a Binary Search Tree (BST) in Python.
 It provides the basic functionality of a BST such as insertion, search, removal, traversals, and more.
