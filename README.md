@@ -36,9 +36,15 @@ main.py → demonstrates usage of the BinarySearchTree
 
   - Level-order (Breadth-First Search)
  # Project Structure
+ 
 📂 BST-Project
- ┣ 📜 binary_search_tree.py   # Binary Search Tree implementation
- ┣ 📜 main.py                 # Example usage and testing
+
+ ┣ 📜 binary_search_tree.py   #Binary Search Tree implementation
+
+ 
+ ┣ 📜 main.py               # Example usage and testing
+
+ 
  ┗ 📜 README.md               # Documentation
 
  # Requirements
