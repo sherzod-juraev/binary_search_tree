@@ -7,8 +7,9 @@ The project is split into two files for better structure:
 binary_search_tree.py → contains the BinarySearchTree class implementation
 
 main.py → demonstrates usage of the BinarySearchTree
+---
 
- # Features
+## Features
 
 - Insert new values
 
@@ -35,7 +36,8 @@ main.py → demonstrates usage of the BinarySearchTree
   - Post-order (Left → Right → Root)
 
   - Level-order (Breadth-First Search)
- # Project Structure
+ ---
+ ## Project Structure
  
 📂 binary_search_tree
 
@@ -46,20 +48,20 @@ main.py → demonstrates usage of the BinarySearchTree
 
  
  ┗ 📜 README.md          
-
- # Requirements
+---
+ ## Requirements
 
 Python 3.9+ recommended
 
 No external libraries needed
-
-# Notes
+--
+## Notes
 
 Duplicate values are not allowed (insertion will raise an error).
 
 This is a basic BST, not self-balancing (e.g., AVL/Red-Black Tree).
 
-# Example Usage
+## Example Usage
 
 main.py
 ```python
