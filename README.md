@@ -34,7 +34,7 @@ main.py → demonstrates usage of the BinarySearchTree
 
   - Post-order (Left → Right → Root)
 
-- Level-order (Breadth-First Search)
+  - Level-order (Breadth-First Search)
  # Project Structure
 📂 BST-Project
  ┣ 📜 binary_search_tree.py   # Binary Search Tree implementation
