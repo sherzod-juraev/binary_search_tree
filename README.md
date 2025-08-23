@@ -39,13 +39,13 @@ main.py → demonstrates usage of the BinarySearchTree
  
 📂 binary_search_tree
 
- ┣ 📜 binary_search_tree.py   # Binary Search Tree implementation
+ ┣ 📜 binary_search_tree.py
 
  
- ┣ 📜 main.py               #  Example usage and testing
+ ┣ 📜 main.py          
 
  
- ┗ 📜 README.md               # Documentation
+ ┗ 📜 README.md          
 
  # Requirements
 
