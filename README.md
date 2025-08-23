@@ -8,7 +8,7 @@ binary_search_tree.py → contains the BinarySearchTree class implementation
 
 main.py → demonstrates usage of the BinarySearchTree
 
-Features
+ # Features
 
 Insert new values
 
@@ -35,7 +35,7 @@ Pre-order (Root → Left → Right)
 Post-order (Left → Right → Root)
 
 Level-order (Breadth-First Search)
-
+ # Project Structure
 📂 BST-Project
  ┣ 📜 binary_search_tree.py   # Binary Search Tree implementation
  ┣ 📜 main.py                 # Example usage and testing
