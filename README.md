@@ -41,13 +41,13 @@ Level-order (Breadth-First Search)
  ┣ 📜 main.py                 # Example usage and testing
  ┗ 📜 README.md               # Documentation
 
-Requirements
+ # Requirements
 
 Python 3.9+ recommended
 
 No external libraries needed
 
-Notes
+# Notes
 
 Duplicate values are not allowed (insertion will raise an error).
 
