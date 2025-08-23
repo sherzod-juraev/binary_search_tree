@@ -28,11 +28,11 @@ main.py → demonstrates usage of the BinarySearchTree
 
 - Traversal methods:
 
-- In-order (Left → Root → Right)
+  - In-order (Left → Root → Right)
 
-- Pre-order (Root → Left → Right)
+  - Pre-order (Root → Left → Right)
 
-- Post-order (Left → Right → Root)
+  - Post-order (Left → Right → Root)
 
 - Level-order (Breadth-First Search)
  # Project Structure
