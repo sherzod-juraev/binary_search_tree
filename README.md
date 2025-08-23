@@ -10,31 +10,31 @@ main.py → demonstrates usage of the BinarySearchTree
 
  # Features
 
-Insert new values
+- Insert new values
 
-Search for existing values
+- Search for existing values
 
-Remove nodes (leaf, one-child, two-children cases handled)
+- Remove nodes (leaf, one-child, two-children cases handled)
 
-Find minimum and maximum values
+- Find minimum and maximum values
 
-Count total nodes
+- Count total nodes
 
-Find tree height
+- Find tree height
 
-Clear the tree
+- Clear the tree
 
-Merge two BSTs
+- Merge two BSTs
 
-Traversal methods:
+- Traversal methods:
 
-In-order (Left → Root → Right)
+- In-order (Left → Root → Right)
 
-Pre-order (Root → Left → Right)
+- Pre-order (Root → Left → Right)
 
-Post-order (Left → Right → Root)
+- Post-order (Left → Right → Root)
 
-Level-order (Breadth-First Search)
+- Level-order (Breadth-First Search)
  # Project Structure
 📂 BST-Project
  ┣ 📜 binary_search_tree.py   # Binary Search Tree implementation
