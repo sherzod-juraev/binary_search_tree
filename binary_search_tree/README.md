@@ -1,5 +1,3 @@
-from binary_search_tree import BinarySearchTree
-
 # Binary Search Tree Package
 
 A simple Python package implementing a **Binary Search Tree (BST)** with support for duplicate elements.
