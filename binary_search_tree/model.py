@@ -56,6 +56,8 @@ class BinarySearchTree:
             return
         current = self.root
         while current:
+            if value == current.value:
+                break
             if value < current.value:
                 if current.left:
                     current = current.left
