@@ -1,4 +1,4 @@
-# VL Tree Implementation (Python)
+# AVL Tree
 
 This package provides a clean and fully functional implementation of an
 **AVL Tree (Adelson-Velsky and Landis Tree)** in Python.
