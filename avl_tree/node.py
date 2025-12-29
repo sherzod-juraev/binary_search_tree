@@ -5,5 +5,5 @@ class Node:
         self.value = value
         self.left = None
         self.right = None
-        self.height = 0
+        self.height = 1
         self.count = 1
