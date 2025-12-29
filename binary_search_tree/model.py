@@ -101,41 +101,31 @@ class BinarySearchTree:
         """Recursive helper for delete(). Returns the updated subtree after deletion."""
 
         if node is None:
-            return
-        if node.value == value:
-            if node.left and node.right:
-                if node.count > 1:
-                    node.count -= 1
-                    return node
-                else:
-                    successor = self.__in_order_successor(node.right)
-                    node.value = successor.value
-                    node.count = successor.count
-                    node.right = self.__delete_helper(node.right, node.value)
-            elif node.left:
-                if node.count > 1:
-                    node.count -= 1
-                    return node
-                else:
-                    self.__autodec_size()
-                    return node.left
-            elif node.right:
-                if node.count > 1:
-                    node.count -= 1
-                    return node
-                else:
-                    self.__autodec_size()
-                    return node.right
-            else:
-                if node.count > 1:
-                    node.count -= 1
-                else:
-                    self.__autodec_size()
-                    return None
+            return None
         elif value < node.value:
             node.left = self.__delete_helper(node.left, value)
         elif node.value < value:
             node.right = self.__delete_helper(node.right, value)
+        if node.value == value:
+            if node.count > 1:
+                node.count -= 1
+                return node
+            else:
+                if node.left and node.right:
+                    successor = self.__in_order_successor(node.right)
+                    node.value = successor.value
+                    node.count = successor.count
+                    successor.count = 1
+                    node.right = self.__delete_helper(node.right, node.value)
+                elif node.left:
+                    self.__autodec_size()
+                    return node.left
+                elif node.right:
+                    self.__autodec_size()
+                    return node.right
+                else:
+                    self.__autodec_size()
+                    return None
         return node
 
     def __in_order_successor(self, node: Node, /) -> Node:
